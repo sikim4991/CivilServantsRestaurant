@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1N9-JG-d62"; */
+"1N9-JG-d62.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "8Sn-QI-bgL"; */
+"8Sn-QI-bgL.text" = "Category";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Au8-xN-lZR"; */
+"Au8-xN-lZR.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "목록"; ObjectID = "Eew-ik-qxB"; */
+"Eew-ik-qxB.title" = "목록";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Gzt-ts-VM7"; */
+"Gzt-ts-VM7.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "●"; ObjectID = "QfR-YW-iG7"; */
+"QfR-YW-iG7.title" = "●";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "WxP-q9-ZJ3"; */
+"WxP-q9-ZJ3.text" = "Address";
+
+/* Class = "UIButton"; normalTitle = "데이터 불러오기 1 / 5"; ObjectID = "XWV-Jv-mux"; */
+"XWV-Jv-mux.normalTitle" = "데이터 불러오기 1 / 5";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aeJ-Mw-ac9"; */
+"aeJ-Mw-ac9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "bAM-NJ-4nW"; */
+"bAM-NJ-4nW.text" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lbj-yT-0D7"; */
+"lbj-yT-0D7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "rgh-5w-T03"; */
+"rgh-5w-T03.text" = "...";
+
+/* Class = "UITabBarItem"; title = "정보"; ObjectID = "ta8-gF-gPZ"; */
+"ta8-gF-gPZ.title" = "정보";
+
+/* Class = "UILabel"; text = "RoadAddress"; ObjectID = "wSA-b3-3g3"; */
+"wSA-b3-3g3.text" = "RoadAddress";
