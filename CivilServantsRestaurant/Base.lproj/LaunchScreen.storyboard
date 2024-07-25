@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wuk-jQ-i4l">
+                                <rect key="frame" x="59" y="326" width="275.33333333333331" height="100"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RestaurantNoodle" translatesAutoresizingMaskIntoConstraints="NO" id="Ars-tt-xSO">
+                                        <rect key="frame" x="0.0" y="24.666666666666686" width="47" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="47" id="H6h-0Y-cMm"/>
+                                            <constraint firstAttribute="height" constant="51" id="kZg-aA-LfJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공무원의 밥상" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfQ-XJ-u4T">
+                                        <rect key="frame" x="55.000000000000014" y="25.000000000000004" width="220.33333333333337" height="50.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="41"/>
+                                        <color key="textColor" red="0.081946931779999996" green="0.21901571750000001" blue="0.37881928679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="●" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnT-SE-6aL">
+                                        <rect key="frame" x="67" y="17.333333333333314" width="11" height="14"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                        <color key="textColor" red="0.8538686633" green="0.21195486190000001" blue="0.25527158379999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="●" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCI-Mi-8vv">
+                                        <rect key="frame" x="217" y="17.333333333333314" width="11" height="14"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                        <color key="textColor" red="0.8538686633" green="0.21195486190000001" blue="0.25527158379999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="OYp-s5-q7L"/>
+                                <constraints>
+                                    <constraint firstItem="UCI-Mi-8vv" firstAttribute="leading" secondItem="HnT-SE-6aL" secondAttribute="trailing" constant="139" id="65g-Ru-hFm"/>
+                                    <constraint firstItem="HnT-SE-6aL" firstAttribute="leading" secondItem="dfQ-XJ-u4T" secondAttribute="leading" constant="12" id="D70-gi-Sgh"/>
+                                    <constraint firstItem="dfQ-XJ-u4T" firstAttribute="bottom" secondItem="HnT-SE-6aL" secondAttribute="bottom" constant="44" id="GCu-vs-vLw"/>
+                                    <constraint firstItem="dfQ-XJ-u4T" firstAttribute="trailing" secondItem="UCI-Mi-8vv" secondAttribute="trailing" constant="47.329999999999998" id="Q9o-kZ-riU"/>
+                                    <constraint firstAttribute="trailing" secondItem="dfQ-XJ-u4T" secondAttribute="trailing" id="Szm-BG-fC0"/>
+                                    <constraint firstItem="Ars-tt-xSO" firstAttribute="leading" secondItem="wuk-jQ-i4l" secondAttribute="leading" id="UkV-dF-0YH"/>
+                                    <constraint firstItem="Ars-tt-xSO" firstAttribute="centerY" secondItem="wuk-jQ-i4l" secondAttribute="centerY" id="VMk-Vw-54X"/>
+                                    <constraint firstItem="dfQ-XJ-u4T" firstAttribute="bottom" secondItem="UCI-Mi-8vv" secondAttribute="bottom" constant="44" id="bda-8N-QjV"/>
+                                    <constraint firstAttribute="height" constant="100" id="djf-ne-Xlq"/>
+                                    <constraint firstItem="dfQ-XJ-u4T" firstAttribute="leading" secondItem="Ars-tt-xSO" secondAttribute="trailing" constant="8" symbolic="YES" id="oVk-nG-KZE"/>
+                                    <constraint firstItem="Ars-tt-xSO" firstAttribute="leading" secondItem="wuk-jQ-i4l" secondAttribute="leading" id="pcB-FW-gRk"/>
+                                    <constraint firstItem="dfQ-XJ-u4T" firstAttribute="centerY" secondItem="wuk-jQ-i4l" secondAttribute="centerY" id="uIQ-QJ-d91"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wuk-jQ-i4l" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="U4o-SS-JH1"/>
+                            <constraint firstItem="wuk-jQ-i4l" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Win-JQ-Csl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RestaurantNoodle" width="896" height="896"/>
+    </resources>
+</document>
