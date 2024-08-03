@@ -38,6 +38,14 @@ __마음에 드는 장소를 즐겨찾기로 추가하고 관리할 수 있어�
 
 ## 구현 영상
 
+|실행 첫화면|마커 선택 후 웹뷰 띄우기|'목록'에서 카테고리 선택, 해제 및 해당 장소 이동|
+|:---:|:---:|:---:|
+|![ezgif-6-22a26b2b34](https://github.com/user-attachments/assets/44286dd3-faf1-41de-92cb-61fde75badb9)|![ezgif-1-9f69398d1d](https://github.com/user-attachments/assets/aa3a811c-83bf-4104-bbed-6ad9129d87ed)|![ezgif-1-27a4c2860f](https://github.com/user-attachments/assets/6917cdde-a251-4db3-93de-ddd8c968a991)|
+|장소이름 및 주소, 도로명 주소 공유|장소 즐겨찾기 추가(중복장소 방지)|즐겨찾기 확장셀 및 지도 이동|
+|![ezgif-1-8b0d49a24d](https://github.com/user-attachments/assets/6b9787c2-65ae-4674-a92a-0f59089d72d7)|![ezgif-1-6fc9f2abce](https://github.com/user-attachments/assets/6e3826e0-5d78-4488-a50a-acb273d1783c)|![ezgif-4-67e063e2c7](https://github.com/user-attachments/assets/1955fede-d55a-4e4b-b5e8-5f8d3bc32438)|
+|즐겨찾기에서 공유|즐겨찾기 삭제|데이터 불러오기|
+|![ezgif-4-c13a9e9d9c](https://github.com/user-attachments/assets/fc79c68c-4ef3-401b-b788-9a2899aa6965)|![ezgif-4-0749cb3360](https://github.com/user-attachments/assets/a7aabd36-ad26-4916-9a3b-856d07eabb7e)|![ezgif-4-fdc7604671](https://github.com/user-attachments/assets/2a27eda3-9646-45f5-8bff-fea3da1f9277)|
+
 ## 아키텍처
 
 __MVC(Model-View-ViewController)__ 디자인 패턴 적용
